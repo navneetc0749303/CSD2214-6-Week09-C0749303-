@@ -7,6 +7,21 @@
 </head>
 <body>
     <div>Content goes here!</div>
-    <script src="js/main.js"></script>
+    <script >
+        var calculator = {
+            sum: 0,
+             startnumber = 1109,
+             stepdownnumber = 11,
+             endnumber = 119,
+             addup: function () {
+                 for (counter = this.startnumber; counter > this.endnumber; counter -= this.stepdownnumber) {
+                     this.sum += counter;
+
+                 }
+                return sum;
+            }
+        };
+        document.write(calculator.addup());
+    </script>
 </body>
 </html>
